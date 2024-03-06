@@ -139,6 +139,11 @@ body {
   background: #fff;
   cursor: pointer;
 }
+.project-card:hover {
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.48);
+}
 .first-row {
   margin-top: 72px;
 }
@@ -293,6 +298,9 @@ body {
 .portofolio-button:hover,
 .portofolio-button:focus {
   color: var(--link-color-hover);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.48);
 }
 .footer-text {
   font-weight: 400;
@@ -355,6 +363,7 @@ body {
 }
 .svg:hover {
   fill: #4d5ae5;
+  fill-opacity: 1;
 }
 .forth-section {
   margin: 120px 156px;
