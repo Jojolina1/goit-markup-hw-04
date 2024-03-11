@@ -410,13 +410,16 @@ body {
   justify-content: space-between;
 }
 .trailingbg {
-  fill: rgb(244, 244, 253);
-  background-color: rgb(46, 47, 66);
-  width: 40px;
-  height: 40px;
+  width: 24px;
+  height: 24px;
 }
-.trailingbg:hover {
+
+.bg-icon {
+  padding: 8px 8px 5px 8px;
+}
+.bg-icon:hover {
   background-color: rgb(77, 90, 229);
-  fill: rgb(77, 90, 229);
-  border-radius: 50px;
+  border-radius: 50%;
+  fill: white;
+  color: white;
 }
