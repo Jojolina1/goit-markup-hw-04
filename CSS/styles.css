@@ -1,7 +1,7 @@
 :root {
   --primary-text-color: rgb(46, 47, 66);
   --secondary-text-color: rgb(67, 68, 85);
-  --link-color-hover: rgb(26, 234, 253);
+  --link-color-hover: rgb(60, 7, 235);
   --link-color-visited: rgb(128, 0, 128);
   --main-background-color: rgb(255, 255, 255);
 }
@@ -17,7 +17,6 @@ body {
   color: var(--primary-text-color);
   font-family: "Roboto", "Montserat" sans-serif;
   text-decoration: none;
-  display: flex;
 }
 
 .container-header {
@@ -262,7 +261,7 @@ body {
 }
 .mainpage-button:hover,
 .mainpage-button:focus {
-  color: var(--link-color-hover);
+  color: rgb(17, 1, 115);
 }
 .accent {
   font-weight: 500;
@@ -332,11 +331,19 @@ body {
   align-items: center;
 }
 .trailing {
-  width: 40px;
-  height: 40px;
-  top: 12px;
-  left: 12px;
-  padding: 1.5px, 0px, 1.5px, 0px;
+  width: 25px;
+  height: 25px;
+  fill: rgb(142, 143, 153);
+  fill-opacity: 0.7;
+  background-color: rgb(253, 253, 253);
+  background-size: contain;
+  background-color: #fff;
+}
+.trailing:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(77, 90, 229);
+  fill-opacity: 1;
+  border-radius: 50px;
 }
 .trailing-icons {
   width: 232px;
@@ -344,9 +351,8 @@ body {
   gap: 24px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding-left: 16px;
-  padding-right: 16px;
+  justify-content: center;
+  padding-left: 30px;
 }
 .svgs {
   display: flex;
@@ -356,14 +362,15 @@ body {
 .svg {
   width: 168px;
   height: 88px;
-  padding: 16px 32px;
-  border-radius: 3px;
-  fill: #d9d9d9;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border-color: rgb(142, 143, 153);
+  color: rgb(142, 143, 153);
   fill-opacity: 1;
 }
 .svg:hover {
-  fill: #4d5ae5;
-  fill-opacity: 1;
+  color: rgb(77, 90, 229);
+  border-color: rgb(77, 90, 229);
 }
 .forth-section {
   margin: 120px 156px;
@@ -404,6 +411,12 @@ body {
   justify-content: space-between;
 }
 .trailingbg {
+  fill: rgb(244, 244, 253);
+  background-color: rgb(46, 47, 66);
   width: 40px;
   height: 40px;
+}
+.trailingbg:hover {
+  background-color: rgb(77, 90, 229);
+  border-radius: 50px;
 }
