@@ -331,19 +331,17 @@ body {
   align-items: center;
 }
 .trailing {
-  width: 25px;
-  height: 25px;
-  fill: rgb(142, 143, 153);
-  fill-opacity: 0.7;
-  background-color: rgb(253, 253, 253);
-  background-size: contain;
-  background-color: #fff;
+  width: 20px;
+  height: 20px;
 }
-.trailing:hover {
-  color: rgb(255, 255, 255);
+.trailing-icon {
+  padding: 8px 8px 5px 8px;
+}
+.trailing-icon:hover {
   background-color: rgb(77, 90, 229);
-  fill-opacity: 1;
-  border-radius: 50px;
+  border-radius: 50%;
+  fill: white;
+  color: white;
 }
 .trailing-icons {
   width: 232px;
@@ -369,8 +367,9 @@ body {
   fill-opacity: 1;
 }
 .svg:hover {
-  color: rgb(77, 90, 229);
-  border-color: rgb(77, 90, 229);
+  color: inherit;
+  border-color: inherit;
+  fill: inherit;
 }
 .forth-section {
   margin: 120px 156px;
@@ -418,5 +417,6 @@ body {
 }
 .trailingbg:hover {
   background-color: rgb(77, 90, 229);
+  fill: rgb(77, 90, 229);
   border-radius: 50px;
 }
